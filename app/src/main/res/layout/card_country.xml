@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardIndonesia"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/black"
+                app:strokeWidth="2.0dip"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/indonesia"
+                        android:background="@color/background_card"
+                        />
+
+                    <TextView
+                        android:layout_width="105dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Indonesia"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/black" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardUnitedStates"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/black"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/united_states"
+                        android:background="@color/background_card"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="United States"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/black" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardJapan"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/black"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/japan"
+                        android:background="@color/background_card"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Japan"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/black" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardArgentina"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/black"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/argentina"
+                        android:background="@color/background_card"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Argentina"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/black" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardChina"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/holo_purple"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/china"
+                        android:background="@color/background_card"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="China"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/black" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardGermany"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/black"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:padding="10dp"
+                        android:src="@drawable/germany"
+                        android:background="@color/background_card"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Germany"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/black" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

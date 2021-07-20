@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/llCurved">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardHeadLine"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/black"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/breaking_news" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Top Headlines"
+                        android:textColor="@android:color/holo_orange_light"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/holo_orange_light" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/holo_orange_light" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardWorldNews"
+                android:layout_width="150.0dip"
+                android:layout_height="150.0dip"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="10.0dip"
+                app:cardElevation="5.0dip"
+                app:strokeColor="@android:color/black"
+                app:strokeWidth="2.0dip">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:padding="10dp"
+                        android:src="@drawable/world_news" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="World News"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|center"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:background="@android:color/holo_red_dark" />
+
+                        <View
+                            android:layout_width="10dp"
+                            android:layout_height="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@android:color/holo_red_dark" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
