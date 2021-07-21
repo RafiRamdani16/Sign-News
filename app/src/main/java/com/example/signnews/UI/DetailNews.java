@@ -87,7 +87,7 @@ public class DetailNews extends AppCompatActivity {
 
     private void setupToolbar() {
         Toolbar toolbar = findViewById(R.id.tbDetail);
-        toolbar.setTitle("Choose Country");
+        toolbar.setTitle("Detail News");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
