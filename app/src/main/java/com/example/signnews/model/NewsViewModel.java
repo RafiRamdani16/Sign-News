@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModel;
 import com.example.signnews.networking.NewsRepository;
 
 public class NewsViewModel extends ViewModel {
-    private static String KEY = "3b35b7950af94d8da344750275f9f4c8";
+    private static String KEY = "65b80ebd2b1e4bbe92f2ca9183bb18a7";
     private MutableLiveData<NewsResponse> mutableLiveData;
     private NewsRepository newsRepository;
 
