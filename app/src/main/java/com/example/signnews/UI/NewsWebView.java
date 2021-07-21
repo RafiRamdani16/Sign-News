@@ -62,7 +62,7 @@ public class NewsWebView extends AppCompatActivity {
 
     private void setupToolbar() {
         Toolbar toolbar = findViewById(R.id.tbWeb);
-        toolbar.setTitle("WebView");
+        toolbar.setTitle("Berita Selengkapnya");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
